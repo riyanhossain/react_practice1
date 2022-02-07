@@ -5,21 +5,22 @@ import Component2 from './component2';
 import ContexAPI from './contexAPI';
 function App() {
   return (
-    <div className="app" id='app'>
-      
+    <div className='App'>
+
+      {/* <div className="app" id='app'>
+        <div className="dv1"></div>
+        <div className="dv2"></div>
+        <div className="dv3"></div>
+        <div className="dv4"></div>
+      </div> */}
       <div>
-      <div className="dv1">
-        hello
+        {/* <ContexAPI>
+          <Component1 />
+        </ContexAPI> */}
+
       </div>
-      <div className="dv2"></div>
-      <div className="dv3"></div>
-      <div className="dv4"></div>
-      </div>
-      <ContexAPI>
-        <Component1/>
-        <Component2/>
-      </ContexAPI>
-      
+      <Component2/>
+
     </div>
   );
 }
