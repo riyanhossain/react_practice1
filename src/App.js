@@ -3,6 +3,7 @@ import './App.css';
 import Component1 from './component1';
 import Component2 from './component2';
 import ContexAPI from './contexAPI';
+import PracticeReducer from './PracticeReducer';
 function App() {
   return (
     <div className='App'>
@@ -19,7 +20,8 @@ function App() {
         </ContexAPI> */}
 
       </div>
-      <Component2/>
+      {/* <Component2/> */}
+      <PracticeReducer/>
 
     </div>
   );
